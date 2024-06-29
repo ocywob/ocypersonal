@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Services Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            color: greenyellow;
+            font-family: 'Courier New', Courier, monospace;
+            overflow-x: hidden;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1, h2, h3 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        p {
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        .matrix {
+            position: relative;
+            animation: matrix 1.5s infinite alternate;
+        }
+
+        .black {
+            position: relative;
+            animation: matrix 1.5s infinite alternate;
+            color: black;
+        }
+
+
+        @keyframes matrix {
+            from {
+                opacity: 0.8;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 20px;
+            }
+            h3 {
+                font-size: 16px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="matrix">Onur C. Yildiz</h1>
+        <h2 class="matrix">Consulting Services</h2>
+        <h3 class="matrix">Dilemma and Problem Solving</h3>
+        <p class="matrix">
+            I am no-followed & no-indexed. I'm neither on social media nor on linkedin. You can contact me directly if you are curious about me.
+        </p>
+        <h3 class="matrix">How to reach out?</h3>
+        <p class="matrix">
+          Please use email: onurcan.yildiz gmx de
+        </p>
+        <h3 class="matrix">Whatsapp</h3>
+        <p class="matrix">
+            90 505 967 08 28
+        </p>
+                <p class="black">
+            Keywords: Ayvalik, Köln, İstanbul, Amsterdam, Bonn, Shop Apotheke, Redcare Pharmacy, Spyke Media, Gezimanya
+        </p>
+    </div>
+</body>
+</html>
